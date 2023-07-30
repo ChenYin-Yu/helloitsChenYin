@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1753092a71fbb009682b",
+    "revision": "d78daeb6cfe92ac71675",
     "url": "/helloitsChenYin/static/css/main.9f84f21f.chunk.css"
   },
   {
-    "revision": "1753092a71fbb009682b",
-    "url": "/helloitsChenYin/static/js/main.1753092a.chunk.js"
+    "revision": "d78daeb6cfe92ac71675",
+    "url": "/helloitsChenYin/static/js/main.d78daeb6.chunk.js"
   },
   {
     "revision": "692a8372bce424561495",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/helloitsChenYin/static/media/Planer-Regular.9e09a546.ttf"
   },
   {
-    "revision": "1a7b71b6c77b5b4edf4797f6b6f4db90",
+    "revision": "b1d39aae4ed0dbd1aa3568a382bd5458",
     "url": "/helloitsChenYin/index.html"
   }
 ];
