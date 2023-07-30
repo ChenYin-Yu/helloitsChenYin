@@ -1,0 +1,190 @@
+{   "project_info": {
+        "project1":{
+        "name":"Foreflame",
+        "team": "Microsoft Capstone Project · 2022.06 - 12",
+        "goal": "Improve fire management system to reduce the loss from wildfire",
+        "img_url":"./../../assets/project1/wildfire.png",
+        "outer_link":{
+            "button_name":"WEBSITE >",
+            "link":"https://www.foreflame.com/"
+        },
+        "intro": [
+            {
+                "num":"01",
+                "title":"Touchstone",
+                "content": " The wildfire management includes pre suppression before the fire and suppression after fire burns. According to  Environmental Economics and Management, a better fire management system, and efficient tactical decisions can reduce the cost on fire suppression in 80%"
+            },
+            {
+                "num":"02",
+                "title":"Stackholder",
+                "content": "USDA, USFS, DNR, Researchers, Insurance Companies"
+            },
+            {
+                "num":"03",
+                "title":"Current Pain Points",
+                "content": "Segmented user groups lack of a unified system to collaborate. Factors influencing wildfire behaviour do not update by time. Different data does not integrated properly."
+            },
+            {
+                "num":"05",
+                "title":"Features",
+                "content": "Utilize data including weather, fuel, and historical wildfire records training machine learning model to provide more reliable and precise prediction. Provide five days prediction result for consistence observation and build completed supression strategy. Develop report functionality for fire analysts to build wildfire reports and send to the fire managers for easy seamless communication."
+            }
+            ],
+        "img_section": [
+            {
+                "img_title":"Software Architecture",
+                "img_text":"Our software system is designed to integrate historical climate data and vegetation data as training inputs for an ML model. The training process takes place on an Azure Virtual Machine (VM), leveraging its computational power and resources. The trained ML model's results are then transmitted to the frontend, where a user-friendly client application is built using React and Flask. ",
+                "img_url":"./../../assets/project1/p1-sw.png"
+            },
+            {
+                "img_title":"Solution",
+                "img_text":"Implement a WildFire Occurrence Prediction System. Integrate comprehensive data into the machine learning model to predict the possibility of wildfire occurrence in the next 4 days in WA. Integrate big data including weather data from NOAA, NDVI from MODIS and fuel data from LANDFIRE, and historical wildfire data in the past 10 years to traning the machine learning model. Build the DNN model to provide five days prediction result. Provide an interface which including a map to identify the fire spot and check out the prediction result in linear time. The user can also apply different factors like vegetation, canopy data on the map to assist them build a more comprehensive strategy.",
+                "img_url":"./../../assets/project1/p1-db.png"
+            },
+            {
+                "img_title":"",
+                "img_text":"",
+                "img_url":"./../../assets/project1/p1-i2.png"
+            },
+            {
+                "img_title":"",
+                "img_text":"",
+                "img_url":"./../../assets/project1/p1-cp.png"
+            }
+        ],
+        "credit":[
+            {"role":"Project Manager", "name":"Manasa Sama"},
+            {"role":"Frontend Developer", "name":"Teja Balu"},
+            {"role":"Machine Learning Engineer", "name":"Gloria Hou"},
+            {"role":"Data Engineer", "name":"Chen-Yin Yu"},
+            {"role":"Designer","name":"Yiran Fu"},
+            {"role":"DNR Mentors","name":"Vaughn Cork, Matthew Dehr"},
+            {"role":"Microsoft Mentors","name":"Anirudh Baddam, Roberto Estevao, Sara Malavar, Leonardo Nunes"}
+        ],
+        "snippet":{
+                "link":"/Projects/Project1",
+                "title":"Foreflame",
+                "desc":"WILDFIRE PREDICTION",
+                "img_url":"./../../assets/project1/p1-snippet.png"
+            }
+        },
+        "project2":{
+        "name": "Bubble: Portraits within a Perlin Realm",
+        "team": "Project @ YEN-YING CHO Studio · 2022.08 - 12",
+        "goal": "Achieve natural circular arrangement",
+        "img_url":"./../../assets/project2/bubbles.gif",
+        "outer_link":{
+            "button_name":"sneak peek",
+            "link":"https://yentingcho.com/blogs/latest-news/yen-ting-cho-studio-gallery-cho-opening"
+        },
+        "intro": [
+            {
+                "num":"01",
+                "title":"Project Introduction",
+                "content": "The project serves as the main visual for our studio in the year 2024. The artwork aims to convey the feeling of emerging from the dark mist, symbolizing how people have gradually found a way to coexist with the virus amidst the darkness of the COVID-19 pandemic in the past few years, and how the world is slowly recovering and resuming its operations. We created the artwork using Processing, employing the Perlin noise distribution method to achieve a more uniform and natural circular arrangement. By detecting the boundaries, we outlined the silhouette of a human figure and applied different color textures using mapping techniques. The varying colors give the artwork a multi-layered effect."
+            },
+            {
+                "num":"02",
+                "title":"Process",
+                "subtitle":"01.Discovering Optimal Parameters for Circular Distribution.",
+                "content": "Exploring Circular Distribution, where several key factors come into play: the canvas size, the range for setting the circle sizes (both the minimum and maximum), and the initial positions of the circles. These elements are interrelated, and we parameterize these variables to conduct multiple experiments, examining the extent of mutual influence among the parameters, including circle sizes, initial positions, and spacing. Our goal is to determine the optimal number of circles that achieve a relatively balanced composition and ensure sufficient collisions among the circles within the constraints of hardware limitations, thus achieving a natural and even distribution."
+            },
+            {
+                "num":"",
+                "title":"",
+                "subtitle": "02. Exploring Color Mapping Rules",
+                "content":"We explore the process of material mapping, with our primary objective being how to fully encapsulate all units within circles of varying sizes and quantities. The goal is to maintain a gradient color variation in the artwork, even when the material is distributed into circles of different sizes. To achieve this, we record the total number of circles and calculate the average radius. Using this average radius as the displacement for extracting the next material unit, we create a standard for mapping the material onto the circles. Based on this standard, we extend the process to create additional layers of variation on the same material, incrementally increasing or decreasing the spacing tolerance."
+            }
+        ],
+        "gallery":[
+            {
+                "img1":"./../../assets/project2/bubble1.png",
+                "img2":"./../../assets/project2/bubble2.png",
+                "img3":"./../../assets/project2/bubble3.png"
+            },
+            {
+                "img1":"./../../assets/project2/p2-i1.png",
+                "img2":"./../../assets/project2/p2-i2.png",
+                "img3":"./../../assets/project2/p2-i3.png"
+            }
+        ],
+        "credit":[
+            {"role":"Director", "name":"Yen-Ting Cho"},
+            {"role":"Art Programmer", "name":"Chen-Yin Yu"}
+        ],
+        "snippet":  
+            {
+                "link":"/Projects/Project2",
+                "title":"Bubble: Portraits within a Perlin Realm",
+                "desc":"VISUAL DATA MAPPING",
+                "img_url":"./../../assets/project2/p2-snippet.png"
+            }
+        },
+        "project3":{
+        "name":"Dynamic Dancing Waves",
+        "team":"Project @ YEN-YING CHO Studio · 2022.08 - 12",
+        "goal":"Translate human movements into an animated wave model",
+        "img_url":"./../../assets/project3/wave.gif",
+        "outer_link":{
+            "button_name":"sneak peek",
+            "link":""
+        },
+        "intro": [
+            {
+                "num":"01",
+                "title":"Project Introduction",
+                "content": "This artwork aims to achieve aesthetic creation and an integrated interaction between the virtual and the real by translating human movements into an animated wave model. We created this artwork using Processing, utilizing the concept of a spring system to generate a NURB model. The model is then linked to a skeletal structure, simulating dynamic wave-like effects."
+            },
+            {
+                "num":"02",
+                "title":"Process",
+                "subtitle":"01.Simulating a Spring System to Create a NURBS Wave Model",
+                "content": "Firstly, we will explore how to create a wave model that closely resembles real-life waves. By simulating the movement of interconnected small blocks using springs, and assigning physical properties to each particle, we can incorporate a spring constant to simulate a flexible and realistic wave effect."
+            },
+            {
+                "num":"02",
+                "title":"",
+                "subtitle":"02.Crafting Wave Patterns between Virtual and Real",
+                "content": "The actual creation of the wave effect is not solely based on adjusting real-world physical properties. This process can be divided into two parts: firstly, adjusting the elasticity coefficients of different hierarchical particles to create varying degrees of softness and hardness within the fabric of the model. Secondly, incorporating time series data to record the movement information of each state, thereby enhancing the model's variability and expansiveness."
+            },
+            {
+                "num":"02",
+                "title":"",
+                "subtitle":"03.Binding the Model to a Human Skeleton",
+                "content": "Binding blocks with different elasticity coefficients to various skeletal points, and combining the movement of the skeletal points with the differences in elasticity coefficients, will add further variation to the model. Additionally, by creating an operation menu that associates specific actions with particular wave patterns, future digital creations will be more conveniently achieved."
+            }
+        ],
+        "gallery":[
+            {
+                "img1":"./../../assets/project3/p3-1.png",
+                "img2":"./../../assets/project3/p3-2.png",
+                "img3":"./../../assets/project3/p3-3.png"
+            },
+            {
+                "img1":"./../../assets/project3/p3-4.png",
+                "img2":"./../../assets/project3/p3-5.png",
+                "img3":"./../../assets/project3/p3-6.png"
+            }
+        ],
+        "img_section": [
+            {
+                "img_title":"",
+                "img_text":"",
+                "img_url":"./../../assets/project3/p3-7.png"
+            }
+        ],
+        "credit":[
+            {"role":"Director", "name":"Yen-Ting Cho"},
+            {"role":"Software Developer", "name":"Yen-Ling Kuo, Yen-Ting Yeh, Chen-Yin Yu"}
+        ],
+        "snippet":
+            {
+                "link":"/Projects/Project3",
+                "title":"Dynamic Dancing Waves",
+                "desc":"3D DATA CONCATANATION",
+                "img_url":"./../../assets/project3/wave.gif"
+            }
+
+        }
+    }
+}
