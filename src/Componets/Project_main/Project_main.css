@@ -1,0 +1,53 @@
+.main-container {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.project-name {
+    font-family: "Planer",
+        "SF Pro Text",
+        "SF Pro Icons",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        sans-serif;
+    font-size: calc(32px + 8vmin);
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.project-goal {
+    font-family: "Planer",
+        "SF Pro Text",
+        "SF Pro Icons",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        sans-serif;
+    font-size: calc(24px + 2vmin);
+    font-weight: 500;
+    width: 60vw;
+    color: #ffffff;
+}
+
+.project-goal {
+    bottom: 0;
+    letter-spacing: 2px;
+}
+
+.project-goal {
+    flex: 1;
+}
+
+.project-team {
+    color: #ffffff;
+    letter-spacing: 2px;
+}

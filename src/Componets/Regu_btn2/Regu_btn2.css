@@ -1,0 +1,24 @@
+.Regu_btn2{
+    font-family: "Planer",
+            "SF Pro Text",
+            "SF Pro Icons",
+            "Helvetica Neue",
+            "Helvetica",
+            "Arial",
+            sans-serif;
+    background-color: white; 
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 15px 20px;
+    margin-top: 2%;
+    border-color: rgba(0, 0, 0, 1);
+    border-width: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    width:12%;
+}
+.Regu_btn2:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
