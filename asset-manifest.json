@@ -1,7 +1,7 @@
 {
   "main.css": "/helloitsChenYin/static/css/main.f93b0b30.chunk.css",
-  "main.js": "/helloitsChenYin/static/js/main.9d961b69.chunk.js",
-  "main.js.map": "/helloitsChenYin/static/js/main.9d961b69.chunk.js.map",
+  "main.js": "/helloitsChenYin/static/js/main.c6ca8def.chunk.js",
+  "main.js.map": "/helloitsChenYin/static/js/main.c6ca8def.chunk.js.map",
   "static/js/1.692a8372.chunk.js": "/helloitsChenYin/static/js/1.692a8372.chunk.js",
   "static/js/1.692a8372.chunk.js.map": "/helloitsChenYin/static/js/1.692a8372.chunk.js.map",
   "static/js/2.f2bfe448.chunk.js": "/helloitsChenYin/static/js/2.f2bfe448.chunk.js",
@@ -11,6 +11,6 @@
   "static/media/App.css": "/helloitsChenYin/static/media/Planer-Regular.9e09a546.ttf",
   "static/css/main.f93b0b30.chunk.css.map": "/helloitsChenYin/static/css/main.f93b0b30.chunk.css.map",
   "index.html": "/helloitsChenYin/index.html",
-  "precache-manifest.854a8ba7cb5714b5924aa411556f06e2.js": "/helloitsChenYin/precache-manifest.854a8ba7cb5714b5924aa411556f06e2.js",
+  "precache-manifest.a9a0221ef92a5541d8f4168591516295.js": "/helloitsChenYin/precache-manifest.a9a0221ef92a5541d8f4168591516295.js",
   "service-worker.js": "/helloitsChenYin/service-worker.js"
 }
